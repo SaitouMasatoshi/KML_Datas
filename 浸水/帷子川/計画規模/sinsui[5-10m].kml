@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sinsui_5_10m_" id="sinsui_5_10m_">
+	<SimpleField name="説明" type="string"></SimpleField>
+	<SimpleField name="アイテムID" type="int"></SimpleField>
+	<SimpleField name="アイテムク" type="string"></SimpleField>
+	<SimpleField name="原点X" type="float"></SimpleField>
+	<SimpleField name="原点Y" type="float"></SimpleField>
+	<SimpleField name="原点Z" type="float"></SimpleField>
+</Schema>
+<Folder><name>sinsui_5_10m_</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sinsui_5_10m_">
+		<SimpleData name="説明">Qゾーン</SimpleData>
+		<SimpleData name="アイテムID">4</SimpleData>
+		<SimpleData name="アイテムク">Qゾーン</SimpleData>
+		<SimpleData name="原点X">15538586.7821267117</SimpleData>
+		<SimpleData name="原点Y">3947171.1057536048</SimpleData>
+		<SimpleData name="原点Z">0.0000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>139.596625000022,35.4446246657753 139.596625000022,35.4445829991086 139.596562500022,35.4445829991086 139.596562500022,35.4446246657753 139.596625000022,35.4446246657753</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>139.596875000022,35.4447079991086 139.596875000022,35.4447496657753 139.596937500022,35.4447496657753 139.596937500022,35.4447079991086 139.596875000022,35.4447079991086</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>139.596750000022,35.4447496657753 139.596750000022,35.444791332442 139.596812500022,35.444791332442 139.596812500022,35.4447496657753 139.596750000022,35.4447496657753</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>139.596625000022,35.4446246657753 139.596625000022,35.444666332442 139.596687500022,35.444666332442 139.596687500022,35.4446246657753 139.596625000022,35.4446246657753</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>139.574187500018,35.4714163324426 139.574187500018,35.4714579991092 139.574250000018,35.4714579991092 139.574250000018,35.4714163324426 139.574187500018,35.4714163324426</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>139.574062500018,35.4714579991092 139.574062500018,35.4714996657759 139.574125000018,35.4714996657759 139.574125000018,35.4714579991092 139.574062500018,35.4714579991092</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
